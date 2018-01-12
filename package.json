@@ -1,0 +1,51 @@
+{
+  "name": "react-dropdown",
+  "version": "1.0.0",
+  "description": "Dropdown React component",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "styled-components": "^2.4.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack",
+    "release": "np",
+    "prepublish": "yarn build"
+  },
+  "author": {
+    "name": "konrad Wegrzyniak",
+    "email": "konrad@forde.pl"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forde/react-dropdown.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "dropdown",
+    "ui element",
+    "form element"
+  ],
+  "bugs": {
+    "url": "https://github.com/forde/react-dropdown/issues"
+  },
+  "homepage": "https://github.com/forde/react-dropdown#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "np": "^2.18.2",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
